@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanlamTest.API", "SanlamTest.API\SanlamTest.API.csproj", "{655B3707-3FF3-4DFB-A008-9F6526E4582F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanlamTest.Common", "SanlamTest.Common\SanlamTest.Common.csproj", "{14742A00-38DF-4A01-80A7-3AA04EB1462F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SanlamTest.DAL", "SanlamTest.DAL\SanlamTest.DAL.csproj", "{6319E9A0-6E3B-40D6-9223-C4FE22F775E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanlamTest.BLL", "SanlamTest.BLL\SanlamTest.BLL.csproj", "{E4DB6454-5EA4-4C24-B481-DEA478AC633D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransactioHistoryWorkerService", "TransactioHistoryWorkerService\TransactioHistoryWorkerService.csproj", "{A8031317-E096-4648-8285-EDD68E33F5DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WithdrawalMsgWorkerService", "WithdrawalMsgWorkerService\WithdrawalMsgWorkerService.csproj", "{E3878F72-9D93-4292-9822-0B5D0C7C2F0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{655B3707-3FF3-4DFB-A008-9F6526E4582F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655B3707-3FF3-4DFB-A008-9F6526E4582F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655B3707-3FF3-4DFB-A008-9F6526E4582F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655B3707-3FF3-4DFB-A008-9F6526E4582F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14742A00-38DF-4A01-80A7-3AA04EB1462F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14742A00-38DF-4A01-80A7-3AA04EB1462F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14742A00-38DF-4A01-80A7-3AA04EB1462F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14742A00-38DF-4A01-80A7-3AA04EB1462F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6319E9A0-6E3B-40D6-9223-C4FE22F775E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6319E9A0-6E3B-40D6-9223-C4FE22F775E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6319E9A0-6E3B-40D6-9223-C4FE22F775E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6319E9A0-6E3B-40D6-9223-C4FE22F775E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4DB6454-5EA4-4C24-B481-DEA478AC633D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4DB6454-5EA4-4C24-B481-DEA478AC633D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4DB6454-5EA4-4C24-B481-DEA478AC633D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4DB6454-5EA4-4C24-B481-DEA478AC633D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8031317-E096-4648-8285-EDD68E33F5DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8031317-E096-4648-8285-EDD68E33F5DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8031317-E096-4648-8285-EDD68E33F5DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8031317-E096-4648-8285-EDD68E33F5DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3878F72-9D93-4292-9822-0B5D0C7C2F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3878F72-9D93-4292-9822-0B5D0C7C2F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3878F72-9D93-4292-9822-0B5D0C7C2F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3878F72-9D93-4292-9822-0B5D0C7C2F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DF9441D-BA61-4287-B4A6-1DA05A33AF53}
+	EndGlobalSection
+EndGlobal
